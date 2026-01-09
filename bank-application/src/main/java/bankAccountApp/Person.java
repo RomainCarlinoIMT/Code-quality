@@ -92,7 +92,7 @@ public class Person {
 	public Person(String accountHolder) throws Exception {
 		Scanner scan = null;
 		try {
-			scan = new Scanner(accountHolder).useDelimiter(DELIM);
+			scan = new Scanner(accountHolder).useDelimiter(DELIM).useLocale(java.util.Locale.US);
 			name = scan.next();
 			gender = scan.next().charAt(0);
 			age = scan.nextInt();
