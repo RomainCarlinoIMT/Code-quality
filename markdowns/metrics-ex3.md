@@ -1,9 +1,9 @@
-Classe          | LOC   | WMC   | CBO   | LCOM  | Quick notes
-Person          | ~235  | 31    | 1     | Low   |
-Bank            | ~175  | 38    | 7     | Moyen |  
-BankAccount     | ~180  | 35    | 5     | Élevé |
-BankAccountApp  | ~220  | 28    | 5     | N/A   |
+Classes         | LOC   | WMC   | CBO   | LCOM 
+Person          | 327   | 23    | 0     | 79
+Bank            | 413   | 14    | 3     | 0  
+BankAccount     | 462   | 20    | 2     | 44
+BankAccountApp  | 419   | 2     | 3     | 1 (very suspicous since there's only one method)
 
-Highest WMC is Bank and highest CBO is Bank.
+Highest WMC is Person and highest CBO is BankAcountApp.
 
 I'm worrying about the main class in BankAccountApp because it's one single huge fonction. Which if this needs maintenance it will very hard to modify something inside.

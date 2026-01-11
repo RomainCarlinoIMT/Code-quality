@@ -1,7 +1,7 @@
 1 :
 
 Class           | LOC   | WMC   | CBO   | LCOM 
-BankAccount	    | ~180  | 31    | 6     | High
+BankAccount	    | 462   | 20    | 6     | 44
 
 2:
 Choosed method public boolean `withdrawMoney(double withdrawAmount)`
